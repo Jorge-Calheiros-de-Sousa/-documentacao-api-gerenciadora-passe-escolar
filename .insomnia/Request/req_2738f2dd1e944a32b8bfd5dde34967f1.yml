@@ -1,0 +1,41 @@
+_id: req_2738f2dd1e944a32b8bfd5dde34967f1
+type: Request
+parentId: fld_3f9a4bde56d64457abc559510e4d61ab
+modified: 1663436402660
+created: 1662744677460
+url: "{{ _.baseUrl }}/recarga"
+name: Listar
+description: |-
+  ## Rota de listar registros das recargas
+  É uma rota de retorna todos as regargas do banco de dados em json
+  `
+
+  	[
+
+  		{
+  			id: number,
+  			cartao: string,
+  			total:number,
+  			data: string
+  		}
+
+  	]
+  	
+  `
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_83aec17913c4492a913b51e59e776a7e
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662744677460
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

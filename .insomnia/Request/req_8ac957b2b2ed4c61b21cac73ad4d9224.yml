@@ -1,0 +1,55 @@
+_id: req_8ac957b2b2ed4c61b21cac73ad4d9224
+type: Request
+parentId: fld_7fd3412b985d4ff8bb14c9af1c7688c5
+modified: 1662841960037
+created: 1662740302668
+url: "{{ _.baseUrl }}/viagem?ID=1"
+name: Editar
+description: |+
+  ## Rota de editar
+  Rota para editar um registro especifico no banco de dados
+  Content-Type - bodyjson
+
+  Paramentros na url:
+  - ID: number
+
+
+  campos em json:
+
+  `
+
+  	{
+  		cartao: number
+  		data: string format: "0000-00-00"
+  	}
+  	
+
+  `
+
+
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cartao":1,
+    	"data":"2022-09-11"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5fdfdce000d1429181fb65b3cd6bb926
+  - id: pair_b3dc440cc7204b5ea32a884a54c7eafc
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662740302668
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

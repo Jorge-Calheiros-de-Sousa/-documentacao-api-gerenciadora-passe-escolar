@@ -1,0 +1,40 @@
+_id: req_1033e8e56abe4e98abe280444c062475
+type: Request
+parentId: fld_7fd3412b985d4ff8bb14c9af1c7688c5
+modified: 1662744798182
+created: 1662740008850
+url: "{{ _.baseUrl }}/viagem"
+name: Listar
+description: |-
+  ## Rota de listar viagens registradas
+  É uma rota de retorna todos as viagens do banco de dados em json
+  `
+
+  	[
+
+  		{
+  			id: number,
+  			cartao: string,
+  			data: string
+  		}
+
+  	]
+  	
+  `
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d0570de9a9584c37ae24829150417c0a
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662740053860.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

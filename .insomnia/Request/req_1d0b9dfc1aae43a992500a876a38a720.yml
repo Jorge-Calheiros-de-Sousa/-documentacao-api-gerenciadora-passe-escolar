@@ -1,0 +1,30 @@
+_id: req_1d0b9dfc1aae43a992500a876a38a720
+type: Request
+parentId: fld_3f9a4bde56d64457abc559510e4d61ab
+modified: 1663441997169
+created: 1662745138430
+url: "{{ _.baseUrl }}/recarga?ID=1"
+name: Excluir
+description: |
+  ## Rota de excluir
+  Rota paa excluir algum registro do banco de dados
+
+  Paramentros de url
+  - ID:number
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_5a39bb6a4a9342958de10821d23c05bc
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662745138430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

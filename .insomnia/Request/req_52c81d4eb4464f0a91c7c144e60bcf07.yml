@@ -1,0 +1,26 @@
+_id: req_52c81d4eb4464f0a91c7c144e60bcf07
+type: Request
+parentId: fld_b6edd664460d471eb13a2fa65c4eca2e
+modified: 1662742801532
+created: 1662737126182
+url: "{{ _.baseUrl }}/cartao?ID=1"
+name: Excluir
+description: |
+  ## Rota de excluir
+  Rota paa excluir algum registro do banco de dados
+
+  Paramentros de url
+  - ID:number
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1662737126182
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

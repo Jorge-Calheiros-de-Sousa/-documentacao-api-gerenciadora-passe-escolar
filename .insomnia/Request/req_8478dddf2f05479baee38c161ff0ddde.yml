@@ -1,0 +1,57 @@
+_id: req_8478dddf2f05479baee38c161ff0ddde
+type: Request
+parentId: fld_3f9a4bde56d64457abc559510e4d61ab
+modified: 1663441696002
+created: 1662745083874
+url: "{{ _.baseUrl }}/recarga?ID=1"
+name: Editar
+description: |+
+  ## Rota de editar
+  Rota para editar um registro especifico no banco de dados
+  Content-Type - bodyjson
+
+  Paramentros na url:
+  - ID: number
+
+
+  campos em json:
+
+  `
+
+  	{
+  		cartao: number
+  		total:number
+  		data: string format: "0000-00-00"
+  	}
+  	
+
+  `
+
+
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cartao":1,
+    	"total": 300.65,
+    	"data": "2022-09-10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_827eeb632a4044a6b8a896d09d574e83
+  - id: pair_5907fe04b6bf4b44ae4af58ccb4ba373
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662745083874
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_b61384ff93684a0ea8afc31fa1dc2697
+type: Request
+parentId: fld_b565c15f7d584607ac2b6fb600c853c6
+modified: 1663438001088
+created: 1663254976589
+url: "{{ _.baseUrl }}/onibus"
+name: Listar
+description: |-
+  ## Rota de listar registros dos onibus
+  É uma rota de retorna todos os onibus do banco de dados em json
+  `
+
+  	[
+
+  		{
+  			id: number,
+  			nome: string,
+  			conducao:number,
+  		}
+
+  	]
+  	
+  `
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_13ce62959b174906941ed3b3a3484100
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1663254976589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_d235917015b6455fb344edaf4a880a41
+type: Request
+parentId: fld_7fd3412b985d4ff8bb14c9af1c7688c5
+modified: 1662745153319
+created: 1662740494773
+url: "{{ _.baseUrl }}/viagem?ID=1"
+name: Excluir
+description: |
+  ## Rota de excluir
+  Rota paa excluir algum registro do banco de dados
+
+  Paramentros de url
+  - ID:number
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_9908e87945884d66a82c1cd2c8b670cc
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662740494773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

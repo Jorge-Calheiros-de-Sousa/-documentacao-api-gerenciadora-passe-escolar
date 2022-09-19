@@ -1,0 +1,51 @@
+_id: req_2d924d0e5ec944e49ac2379b64478c70
+type: Request
+parentId: fld_b565c15f7d584607ac2b6fb600c853c6
+modified: 1663451446819
+created: 1663436449771
+url: "{{ _.baseUrl }}/onibus"
+name: Criar
+description: |+
+  ## Rota de inserir
+  Rota para inserir dados no banco de dados
+  Content-Type - bodyjson
+
+  campos em json:
+
+  `
+
+  	{
+  		nome: string
+  		conducao: number
+  	}
+  	
+
+  `
+
+
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome":"Via Guararema",
+    	"conducao": 11.40
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_62358b377bcb4ffd9908dec63b8b69cb
+  - id: pair_7690d926f84f4b72a0888b2029e89baf
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1663436449771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

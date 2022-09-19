@@ -1,0 +1,49 @@
+_id: req_3d2435f7567244d59b16fa6f9058f349
+type: Request
+parentId: fld_b6edd664460d471eb13a2fa65c4eca2e
+modified: 1663594061260
+created: 1662728677043
+url: "{{ _.baseUrl }}/cartao"
+name: Criar
+description: |+
+  ## Rota de inserir
+  Rota para inserir dados no banco de dados
+  Content-Type - bodyjson
+
+  campos em json:
+
+  `
+
+  	{
+  		partida: string
+  		destino: string
+  		credito: double
+  	}
+  	
+
+  `
+
+
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partida": "Jacarei",
+    	"destino": "Mogi das Cruzes",
+    	"credito": 350.50
+    } 
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d7cc8913870249b78b3ba7df8bdb3b20
+authentication: {}
+metaSortKey: -1662728301640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

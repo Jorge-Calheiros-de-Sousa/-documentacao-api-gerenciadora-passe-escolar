@@ -1,0 +1,53 @@
+_id: req_5f225411d04649f6b2d9cfdf22fbdf3c
+type: Request
+parentId: fld_3f9a4bde56d64457abc559510e4d61ab
+modified: 1663452121781
+created: 1662744869450
+url: "{{ _.baseUrl }}/recarga"
+name: Criar
+description: |+
+  ## Rota de inserir
+  Rota para inserir dados no banco de dados
+  Content-Type - bodyjson
+
+  campos em json:
+
+  `
+
+  	{
+  		cartao: number
+  		total: number
+  		data: string  format: "0000-00-00"
+  	}
+  	
+
+  `
+
+
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cartao":1,
+    	"total": 53.40,
+    	"data": "2022-10-10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_58c6502332f6454881b81fac03e0d714
+  - id: pair_3581c4af03844a9eb44bdab70898d77a
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662744869450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

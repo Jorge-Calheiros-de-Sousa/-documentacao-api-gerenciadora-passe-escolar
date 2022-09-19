@@ -1,0 +1,53 @@
+_id: req_29f376fc6daa46668c2543c716cec8f9
+type: Request
+parentId: fld_b6edd664460d471eb13a2fa65c4eca2e
+modified: 1663594005276
+created: 1662734889828
+url: "{{ _.baseUrl }}/cartao?ID=11"
+name: Editar
+description: |+
+  ## Rota de editar
+  Rota para editar um registro especifico no banco de dados
+  Content-Type - bodyjson
+
+  Paramentros na url:
+  - ID: number
+
+
+  campos em json:
+
+  `
+
+  	{
+  		partida: string
+  		destino: string
+  		credito: double
+  	}
+  	
+
+  `
+
+
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partida": "Jacarei Editado",
+    	"destino": "Mogi das Cruzes",
+    	"credito": 250.65
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a1d85158147f40608491934c34a873df
+authentication: {}
+metaSortKey: -1662734889828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

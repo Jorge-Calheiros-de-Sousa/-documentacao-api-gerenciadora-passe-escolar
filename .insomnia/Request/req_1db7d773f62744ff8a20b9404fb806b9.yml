@@ -1,0 +1,51 @@
+_id: req_1db7d773f62744ff8a20b9404fb806b9
+type: Request
+parentId: fld_b565c15f7d584607ac2b6fb600c853c6
+modified: 1663441991480
+created: 1663441674406
+url: "{{ _.baseUrl }}/onibus?ID=1"
+name: Editar
+description: |+
+  ## Rota de editar
+  Rota para editar um registro especifico no banco de dados
+  Content-Type - bodyjson
+
+  Paramentros na url:
+  - ID: number
+
+
+  campos em json:
+
+  `
+
+  	{
+  		nome: string
+  		conducao:number
+  	}
+  	
+
+  `
+
+
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome":"Via Dutra Editado",
+    	"conducao": 12.05
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1cad0c265a304012aa87f33dce57c603
+authentication: {}
+metaSortKey: -1663441674406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

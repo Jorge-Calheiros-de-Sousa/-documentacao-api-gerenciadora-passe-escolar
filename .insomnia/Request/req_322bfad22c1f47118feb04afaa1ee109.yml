@@ -1,0 +1,53 @@
+_id: req_322bfad22c1f47118feb04afaa1ee109
+type: Request
+parentId: fld_7fd3412b985d4ff8bb14c9af1c7688c5
+modified: 1663594012487
+created: 1662740098871
+url: "{{ _.baseUrl }}/viagem"
+name: Criar
+description: |+
+  ## Rota de inserir
+  Rota para inserir dados no banco de dados
+  Content-Type - bodyjson
+
+  campos em json:
+
+  `
+
+  	{
+  		cartao: number,
+  		onibus:number
+  		data: string  format: "0000-00-00"
+  	}
+  	
+
+  `
+
+
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cartao":1,
+    	"onibus":1,
+    	"data":"2022-09-10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bde3ea1152584268b33dbd3bbea2f4b5
+  - id: pair_7a9152906b5342d29e352d103fd5e781
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662740200769.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

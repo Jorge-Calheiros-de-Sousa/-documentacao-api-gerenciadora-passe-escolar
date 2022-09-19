@@ -1,0 +1,41 @@
+_id: req_021b0cdf533540779dd0982df6a75c99
+type: Request
+parentId: fld_b6edd664460d471eb13a2fa65c4eca2e
+modified: 1663444163422
+created: 1662728301590
+url: "{{ _.baseUrl }}/cartao"
+name: Listar
+description: |-
+  ## Rota de listar cartões cadastrados
+  É uma rota de retorna todos os cartões do banco de dados em json
+  `
+
+  	[
+
+  		{
+  			id: number,
+  			partida: string,
+  			destino: string
+  			credito: number,
+  		}
+
+  	]
+  	
+  `
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_db5375a72d924b88857e8ae3e2259773
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1662728301590
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

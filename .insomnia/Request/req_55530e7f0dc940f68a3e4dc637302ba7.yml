@@ -1,0 +1,30 @@
+_id: req_55530e7f0dc940f68a3e4dc637302ba7
+type: Request
+parentId: fld_b565c15f7d584607ac2b6fb600c853c6
+modified: 1663442003177
+created: 1663441977408
+url: "{{ _.baseUrl }}/onibus?ID=1"
+name: Excluir
+description: |
+  ## Rota de excluir
+  Rota paa excluir algum registro do banco de dados
+
+  Paramentros de url
+  - ID:number
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1fe88a184c0c492296ccac995367bf4c
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1663441977408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
